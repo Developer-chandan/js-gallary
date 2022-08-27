@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav .gallary {
+    background: green;
+}
+nav .gallary ul{
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+nav .gallary ul li{
+    list-style: none;
+    
+}
+nav .gallary ul li a[data-switcher]{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 1rem;
+    
+}
+nav .gallary ul li a[data-switcher]:hover{
+    background-color: rgb(12 104 6);
+
+   
+}
+nav .gallary ul .tab.is-active{
+    background-color: rgb(12 104 6);
+    
+}
+
+
+#pages{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+#pages .page{
+    box-shadow: 1px 1px 10px green;
+    border: 1px solid #ddd;
+    padding: 1rem 2rem;
+    display: none;
+}
+#pages .page.is-active{
+    display: block;
+}
+.page img{
+    width: 100%;
+}

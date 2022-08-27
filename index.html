@@ -1,38 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Switcher and Tast Gellary</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="header">
         <nav>
             <div class="gallary">
                 <ul class="tabs">
-                   <li class="tab is-active">
-                       <a href="#" data-switcher data-tab="1">Industrial</a>
-                   </li>
-                   <li class="tab">
-                       <a href="#" data-switcher data-tab="2">Real Estate</a>
-                   </li>
-                   <li class="tab">
-                       <a href="#" data-switcher data-tab="3">E-commerce</a>
-                   </li>
-                   <li class="tab">
-                       <a href="#" data-switcher data-tab="4">Single Page</a>
-                   </li>
+                    <li class="tab is-active">
+                        <a href="#" data-switcher data-tab="1">Industrial</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#" data-switcher data-tab="2">Real Estate</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#" data-switcher data-tab="3">E-commerce</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#" data-switcher data-tab="4">Single Page</a>
+                    </li>
                 </ul>
-               </div>
+            </div>
         </nav>
     </header>
 
     <Main>
         <section id="pages">
-            
+            <div class="page is-active" data-page="1">
+                <div class="img-sec">
+                    <a href="https://jibindustriesltd.netlify.app/" target="_blank">
+                        <img src="img/jib.png" alt="">
+                    </a>
+
+                </div>
+                <h2>Industrial Area</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, dolorum enim magnam eligendi
+                    voluptas labore? Suscipit praesentium cumque accusamus. Modi.</p>
+            </div>
+            <div class="page" data-page="2">
+                <div class="img-sec">
+                    <a href="https://brigade-portfolio.netlify.app/" target="_blank">
+                        <img src="img/brigade.png" alt="" >
+                    </a>
+
+                </div>
+                <h2>Real Estate</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, dolorum enim magnam eligendi
+                    voluptas labore? Suscipit praesentium cumque accusamus. Modi.</p>
+            </div>
+            <div class="page" data-page="3">
+                <div class="img-sec">
+                    <a href="https://web-developer-chandan.netlify.app/" target="_blank">
+                        <img src="img/chandan-s.png" alt="">
+                    </a>
+
+                </div>
+                <h2>E-commerce</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, dolorum enim magnam eligendi
+                    voluptas labore? Suscipit praesentium cumque accusamus. Modi.</p>
+            </div>
+
+            <div class="page" data-page="4">
+                <div class="img-sec">
+                    <a href="https://currency-convert-website-template.netlify.app/" target="_blank">
+                        <img src="img/simple.png" alt="" >
+                    </a>
+
+                </div>
+                <h2>Simple Page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, dolorum enim magnam eligendi
+                    voluptas labore? Suscipit praesentium cumque accusamus. Modi.</p>
+            </div>
         </section>
     </Main>
-    
+
 </body>
+<script src="main.js"></script>
+
 </html>
